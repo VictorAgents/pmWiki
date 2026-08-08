@@ -14,7 +14,6 @@ aliases: ["NET"]
 
 （1）通用语言运行环境（CommonLanguageRuntime，CLR）处于.NET开发框架的底层，是该框架的基础，它为多种语言提供了统一的运行环境、统一的编程模型，大大
 
-![](images/980ed1cac8e3957ba76d75032fe863546148aae80a25309175cfc0eacf8ba5e4.jpg)  
 图7-2 .NET开发框架
 
 简化了应用程序的发布和升级、多种语言之间的交互、内存和资源的自动管理等。
