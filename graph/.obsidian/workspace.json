@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "93b5aa8a75523483",
+    "type": "split",
+    "children": [
+      {
+        "id": "b071a3f9016958e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b791eff16b1e8d5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ebd6aa0c75673f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6552dc77a55b2164",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ff6d0e7daa6e241",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "1e8356d68556b87b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c12166465abee5d4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6485e1510ea15b07",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ace2345a4ef3bef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3876478137932cf3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "a976dea35b8d8fa2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "46339ae505677aa3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "73c5d8f36c5e4b18",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "1ea42d17cc85d3d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "0b791eff16b1e8d5",
+  "lastOpenFiles": [
+    "第15章-组织保障/配置项与配置基线.md",
+    "第13章-监控过程组/变更控制委员会(CCB).md",
+    "第12章-执行过程组/冲突管理策略.md",
+    "第12章-执行过程组/塔克曼团队发展阶段模型.md",
+    "第11章-规划过程组/合同类型.md",
+    "第11章-规划过程组/三点估算(PERT).md",
+    "第11章-规划过程组/关键路径法(CPM).md",
+    "第11章-规划过程组/范围基准.md",
+    "第11章-规划过程组/项目管理计划.md",
+    "第10章-启动过程组/干系人登记册.md",
+    "第13章-监控过程组/绩效数据三阶流转模型.md",
+    "第13章-监控过程组/挣值分析(EVM).md",
+    "第11章-规划过程组/WBS与WBS字典.md",
+    "第10章-启动过程组/假设日志.md",
+    "第10章-启动过程组/立项管理文件.md",
+    "第10章-启动过程组/项目章程.md",
+    "INDEX.md"
+  ]
+}
