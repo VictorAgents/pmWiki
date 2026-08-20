@@ -22,7 +22,8 @@ aliases: ["三点估算", "PERT", "计划评审技术", "期望工期", "标准�
 - **标准差 ($\sigma$)**：
   $$\sigma = rac{t_p - t_o}{6}$$
 - **方差 ($\sigma^2$)**：
-  $$\sigma^2 = \left(rac{t_p - t_o}{6}ight)^2$$
+  $$\sigma^2 = \left(rac{t_p - t_o}{6}
+ight)^2$$
 
 ## 3. 正态分布完工概率对照表
 - $t_e \pm 1\sigma$：完工概率约为 **68.26%**

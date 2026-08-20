@@ -58,12 +58,19 @@ CH15_CUSTOM_TITLES = {
 # Import or define the master entity dictionary
 from fine_grained_entities_data import MASTER_DEDICATED_ENTITIES, CORE_WIKILINK_KEYWORDS
 
+# Pre-compile wikilink patterns once at module level for performance
+# Filter to keywords >= 3 chars to avoid false-positive matches (e.g. "CI", "CV", "SV")
+_SORTED_KW = sorted([kw for kw in CORE_WIKILINK_KEYWORDS if len(kw) >= 3],
+                     key=lambda x: len(x), reverse=True)
+_COMPILED_PATTERNS = []
+for _kw in _SORTED_KW:
+    _pat = re.compile(rf'(?<!\[\[)(?<![\w\u4e00-\u9fa5]){re.escape(_kw)}(?!\]\])(?![\w\u4e00-\u9fa5])')
+    _COMPILED_PATTERNS.append((_kw, _pat))
+
 def auto_wikilink_text(text, current_title=""):
-    sorted_keywords = sorted(CORE_WIKILINK_KEYWORDS, key=lambda x: len(x), reverse=True)
-    for kw in sorted_keywords:
-        if kw == current_title or len(kw) < 2:
+    for kw, pattern in _COMPILED_PATTERNS:
+        if kw == current_title:
             continue
-        pattern = re.compile(rf'(?<!\[\[)(?<![\w\u4e00-\u9fa5]){re.escape(kw)}(?!\]\])(?![\w\u4e00-\u9fa5])')
         text = pattern.sub(f'[[{kw}]]', text, count=3)
     return text
 
